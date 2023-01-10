@@ -42,5 +42,6 @@ root@<cntnr>:/# curl -sSLfO https://downloads.mongodb.com/compass/mongosh-1.6.1-
 root@<cntnr>:/# tar -xzf mongosh-1.6.1-linux-x64.tgz
 root@<cntnr>:/# cp -a mongosh-1.6.1-linux-x64/bin/* /usr/local/bin/
 root@<cntnr>:/# mongosh mongodb://mongoadmin:secret@mongodb:27017/
+root@<cntnr>:/# apt install nodejs npm
 ```
 
