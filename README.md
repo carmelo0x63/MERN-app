@@ -23,9 +23,10 @@ docker run \
 - `--network`: network, must be already existing (`docker network create <name>`)
 
 ### MongoDB Shell
-1. start the client container:
+1. start the Node container:
 ```
 docker run -it \
+  -p 8082:8082 \
   --network backend \
   --name dbclient \
   node:lts-alpine sh
