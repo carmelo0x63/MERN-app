@@ -28,7 +28,7 @@ docker run \
 docker run -it \
   --network backend \
   --name dbclient \
-  ubuntu:latest bash
+  node:lts-alpine sh
 ```
 2. disconnect with `CTRL+p+q`
 3. "attach" the container to the `frontend` network:
@@ -43,7 +43,7 @@ root@<cntnr>:/# tar -xzf mongosh-1.6.1-linux-x64.tgz
 root@<cntnr>:/# cp -a mongosh-1.6.1-linux-x64/bin/* /usr/local/bin/
 root@<cntnr>:/# mongosh mongodb://mongoadmin:secret@mongodb:27017/
 root@<cntnr>:/# 
-root@<cntnr>:/# 
+root@<cntnr>:/# curl -SLfO https://nodejs.org/dist/v18.13.0/node-v18.13.0-linux-x64.tar.xz
 root@<cntnr>:/# 
 root@<cntnr>:/# 
 root@<cntnr>:/# 
