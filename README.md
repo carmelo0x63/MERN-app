@@ -4,7 +4,7 @@ A simple MERN (as in MongoDB, Express, React, Node.js) application
 ----
 
 ### MongoDB server
-1. start the MondoDb container:
+1. start the MongoDB container:
 ```
 docker run \
   -d \
@@ -27,7 +27,7 @@ docker run -it \
   --network backend \
   --name dbclient \
   ubuntu:latest bash
-``
+```
 2. disconnect with `CTRL+p+q`
 3. "attach" the container to the `frontend` network:
 `docker network connect frontend dbclient`
