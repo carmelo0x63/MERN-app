@@ -1,0 +1,14 @@
+[
+  {
+    "pw": "123",
+    "username": "user1",
+    "URL: "https://www.example.org",
+    "Notes": "Org website"
+  },
+  {
+    "pw": "456",
+    "username": "user2",
+    "URL: "https://www.example.com",
+    "Notes": "Com website"
+  }
+]
